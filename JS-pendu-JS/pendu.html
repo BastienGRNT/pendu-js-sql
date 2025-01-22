@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+<div class="container">
+    <div class="res">
+        <h1>Résultats du jeu du Pendu</h1>
+        <div class="form-container">
+            <label for="demande-select">Trier par :</label>
+            <select id="demande-select">
+                <option value="Alpha">Ordre Alphabétique</option>
+                <option value="Score">Meilleurs Scores</option>
+                <option value="diff">Difficulté</option>
+            </select>
+
+            <label for="limit-input">Nombre de résultats :</label>
+            <input type="number" id="limit-input" placeholder="Entrez le nombre de résultats" min="1" value="10">
+
+            <button id="fetch-results">Afficher les résultats</button>
+        </div>
+
+        <h2>Résultats :</h2>
+        <ul id="result-list"></ul>
+    </div>
+
+    <div class="jeux">
+        <h1>Jeu du Pendu</h1>
+        <div class="input-group">
+            <label for="pseudo-input">Entrez votre pseudo :</label>
+            <input type="text" id="pseudo-input" placeholder="Votre pseudo">
+        </div>
+
+        <div class="input-group">
+            <label for="difficulte-select">Choisissez la difficulté :</label>
+            <select id="difficulte-select">
+                <option value="Facile">Facile</option>
+                <option value="Moyen">Moyen</option>
+                <option value="Difficile">Difficile</option>
+            </select>
+        </div>
+
+        <button id="jouer">Jouer</button>
+        <p id="message"></p>
+        <p id="mot-trouver"></p>
+        <p id="lettre-essayees">Lettres essayées :</p>
+        <p id="erreur-sign"></p>
+        <div class="pendu-container">
+            <img id="pendu-image" src="images/pendu0.png" alt="Pendu">
+        </div>
+        <input type="text" id="lettre-input" placeholder="Entrez une lettre" maxlength="1">
+    </div>
+</div>
+
+<script src="pendu.js"></script>
+<script src="resultats.js"></script>
+</body>
+</html>

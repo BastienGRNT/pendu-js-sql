@@ -1,0 +1,153 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Nouvelle palette de couleurs en tons bleu clair */
+:root {
+    --primary-color: #5A9BD3;
+    --secondary-color: #82C0E7;
+    --background-color: #E3F2FD;
+    --card-bg: #ffffff;
+    --text-color: #1E3A5F;
+    --input-border: #B0D4ED;
+    --button-hover: #3A82B7;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 40px;
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1200px;
+    max-height: 200px;
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.res, .jeux {
+    flex: 1 1 500px;
+    padding: 50px;
+    background: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px var(--shadow-color);
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 20px;
+}
+
+.res:hover, .jeux:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.input-group, .form-container {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+input, select {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid var(--input-border);
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-bottom: 15px;
+}
+
+input:focus, select:focus {
+    border-color: var(--primary-color);
+}
+
+button {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+#pendu-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px var(--shadow-color);
+}
+
+#message, #mot-trouver, #lettre-essayees, #erreur-sign {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: var(--secondary-color);
+}
+
+#result-list {
+    list-style: none;
+    padding: 0;
+}
+
+#result-list li {
+    font-size: 18px;
+    background: #fff;
+    padding: 20px;
+    margin: 15px auto;
+    width: 100%;
+    border: 1px solid var(--input-border);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+}
+
+/* Responsive design */
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
