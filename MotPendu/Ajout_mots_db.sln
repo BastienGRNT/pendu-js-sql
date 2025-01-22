@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajout_mots_db", "Ajout_mots_db\Ajout_mots_db.csproj", "{21CB5C26-6BC1-4DF1-A0EC-D9C381C32240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CB5C26-6BC1-4DF1-A0EC-D9C381C32240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CB5C26-6BC1-4DF1-A0EC-D9C381C32240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CB5C26-6BC1-4DF1-A0EC-D9C381C32240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CB5C26-6BC1-4DF1-A0EC-D9C381C32240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
