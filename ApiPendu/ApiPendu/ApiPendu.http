@@ -1,0 +1,6 @@
+@ApiPendu_HostAddress = http://localhost:5028
+
+GET {{ApiPendu_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

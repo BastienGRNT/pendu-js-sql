@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ApiPendu.props" />
+</Project>
