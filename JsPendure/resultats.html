@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Résultats du jeu du Pendu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Résultats du jeu du Pendu</h1>
+
+<div class="form-container">
+  <label for="demande-select">Trier par :</label>
+  <select id="demande-select">
+    <option value="Alpha">Ordre Alphabétique</option>
+    <option value="Score">Meilleurs Scores</option>
+    <option value="diff">Difficulté</option>
+  </select>
+
+  <label for="limit-input">Nombre de résultats :</label>
+  <input type="number" id="limit-input" placeholder="Entrez le nombre de résultats" min="1" value="10">
+
+  <button id="fetch-results">Afficher les résultats</button>
+</div>
+
+<h2>Résultats :</h2>
+<ul id="result-list"></ul>
+
+<script src="resultats.js"></script>
+</body>
+</html>
