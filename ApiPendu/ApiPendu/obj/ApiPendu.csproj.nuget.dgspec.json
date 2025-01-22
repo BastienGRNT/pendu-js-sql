@@ -1,24 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\greno\\RiderProjects\\ApiPendu\\ApiPendu\\ApiPendu.csproj": {}
+    "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\ApiPendu\\ApiPendu\\ApiPendu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\greno\\RiderProjects\\ApiPendu\\ApiPendu\\ApiPendu.csproj": {
+    "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\ApiPendu\\ApiPendu\\ApiPendu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\greno\\RiderProjects\\ApiPendu\\ApiPendu\\ApiPendu.csproj",
+        "projectUniqueName": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\ApiPendu\\ApiPendu\\ApiPendu.csproj",
         "projectName": "ApiPendu",
-        "projectPath": "C:\\Users\\greno\\RiderProjects\\ApiPendu\\ApiPendu\\ApiPendu.csproj",
-        "packagesPath": "C:\\Users\\greno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\greno\\RiderProjects\\ApiPendu\\ApiPendu\\obj\\",
+        "projectPath": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\ApiPendu\\ApiPendu\\ApiPendu.csproj",
+        "packagesPath": "C:\\Users\\BASTIEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\ApiPendu\\ApiPendu\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\greno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "C:\\Users\\BASTIEN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -41,8 +38,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -84,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\BASTIEN\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

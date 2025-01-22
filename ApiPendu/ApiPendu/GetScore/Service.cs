@@ -28,7 +28,7 @@ public class Service
                         JOIN player ON player.id_player = score.id_player
                         JOIN mot_pendu ON mot_pendu.id_mot = score.id_mot
                         JOIN difficulty_level ON mot_pendu.id_difficulty = difficulty_level.id_difficulty
-                        ORDER BY player.pseudo DESC
+                        ORDER BY player.pseudo ASC 
                         LIMIT @limit;
                         """;
                 break;
@@ -46,7 +46,7 @@ public class Service
                         JOIN player ON player.id_player = score.id_player
                         JOIN mot_pendu ON mot_pendu.id_mot = score.id_mot
                         JOIN difficulty_level ON mot_pendu.id_difficulty = difficulty_level.id_difficulty
-                        ORDER BY score.score_player ASC 
+                        ORDER BY score.score_player DESC 
                         LIMIT @limit;
                         """;
                 break;
@@ -70,7 +70,7 @@ public class Service
                                 WHEN difficulty_level.level = 'moyen' THEN 2
                                 WHEN difficulty_level.level = 'facile' THEN 3
                             END ASC,
-                            player.pseudo DESC
+                            player.pseudo ASC 
                         LIMIT @limit;
                         """;
                 break;

@@ -19,7 +19,7 @@ static NpgsqlConnection GetConnection()
 static HashSet<string> GetMots()
 {
     var mots = new HashSet<string>(); 
-    string filePath = "C:\\Users\\greno\\RiderProjects\\Ajout_mots_db\\Ajout_mots_db\\words.txt";
+    string filePath = "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\MotPendu\\Ajout_mots_db\\words.txt";
 
     try
     {

@@ -6,7 +6,7 @@ public class SQL
     public static NpgsqlConnection GetConnection()
     {
         var DB_host = "localhost";
-        var DB_port = "5433";
+        var DB_port = "5434";
         var DB_user = "mon_user";
         var DB_password = "mon_password";
         var DB_username = "mon_user";

@@ -185,24 +185,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\greno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BASTIEN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\greno\\Documents\\PenduSql\\Ajout_mots_db\\Ajout_mots_db\\Ajout_mots_db.csproj",
+      "projectUniqueName": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\MotPendu\\Ajout_mots_db\\Ajout_mots_db.csproj",
       "projectName": "Ajout_mots_db",
-      "projectPath": "C:\\Users\\greno\\Documents\\PenduSql\\Ajout_mots_db\\Ajout_mots_db\\Ajout_mots_db.csproj",
-      "packagesPath": "C:\\Users\\greno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\greno\\Documents\\PenduSql\\Ajout_mots_db\\Ajout_mots_db\\obj\\",
+      "projectPath": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\MotPendu\\Ajout_mots_db\\Ajout_mots_db.csproj",
+      "packagesPath": "C:\\Users\\BASTIEN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BASTIEN\\WebstormProjects\\pendu-js-sql\\MotPendu\\Ajout_mots_db\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\greno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "C:\\Users\\BASTIEN\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -225,8 +221,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -253,7 +248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\BASTIEN\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
